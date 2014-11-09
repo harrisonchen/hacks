@@ -27,7 +27,7 @@ body {
 
 .parallax-3 {
 	height: 100vh;
-	background-image: url("../images/google_maps.jpg");
+	background-image: url("../images/google_maps.png");
 }
 
 .parallax-10 {
@@ -134,17 +134,35 @@ from { top: 250px; opacity: 0; }
 }
 
 .parallax-2-left {
-	left: -765px !important;
+	left: -755px !important;
 	opacity: 1 !important;
 }
 
 .parallax-3 h1 {
+	/*border: 1px solid green;*/
   font-size: 160px;
-	width: 765px;
+	width: 890px;
 	/*height: 560px;*/
-	height: 36vh;
+	height: 24vh;
+	top: -600px;
 	/*top: -50vh;*/
 	/*text-shadow: 0 0 88px rgba(221, 0, 255, 0.8);*/
+}
+
+.parallax-3 h2 {
+	/*background-color: rgba(0, 0, 0, 0.75);*/
+	/*border: 1px solid purple;*/
+	display: block;
+  color: rgba(255, 255, 255, 0.85);
+	text-shadow: 0 0 48px rgba(0, 0, 0, 0.9);
+	/*border: 1px solid purple;*/
+	font-size: 40px;
+	width: 875px;
+/*	left: -50px;*/
+	/*height: 400px;*/
+	height: 6vh;
+	top: -400px;
+	/*opacity: 0;*/
 }
 
 .parallax-10 h1 {
