@@ -22,7 +22,12 @@ body {
 
 .parallax-2 {
 	height: 100vh;
-	background-image: url("../images/android.jpg");
+	background-image: url("../images/android_1.png");
+}
+
+.parallax-3 {
+	height: 100vh;
+	background-image: url("../images/google_maps.jpg");
 }
 
 .parallax-10 {
@@ -41,14 +46,14 @@ body {
   right: 0;
   margin: auto;
   letter-spacing: -.02em;
-	text-shadow: 0 0 88px rgba(0, 0, 0, 0.8);
+	text-shadow: 0 0 88px rgba(0, 0, 0, .8);
 	/*text-shadow: 0 0 88px rgba(221, 0, 255, 0.8);*/
 	/*text-shadow: 0 0 8px rgba(221, 0, 255, 0.6);*/
 	-webkit-transition: all 0.5s ease-out;
 	-moz-transition: all 0.5s ease-out;
 	-ms-transition: all 0.5s ease-out;
 	-o-transition: all 0.5s ease-out;
-	transition: all 0.5s ease-out;
+	transition: all 1s ease-out;
 }
 
 .parallax-1 h1 {
@@ -75,10 +80,10 @@ from { height: 66vh; opacity: 0; }
 .title-sub {
 	/*border: 1px solid purple;*/
 	font-size: 40px;
-	width: 320px;
+	width: 747px;
 	/*height: 560px;*/
 	height: 6vh;
-	top: 100px;
+	top: 130px;
 	/*top: -50vh;*/
 	/*text-shadow: 0 0 88px rgba(221, 0, 255, 0.8);*/
 	-webkit-animation: pull-up 1s ease-out;
@@ -87,45 +92,59 @@ from { height: 66vh; opacity: 0; }
 
 @-webkit-keyframes pull-up {
 	from { top: 250px; opacity: 0; }
-	to { top: 100px; opacity: 1; }
+	to { top: 130px; opacity: 1; }
 }
 
 @keyframes pull-up {
 from { top: 250px; opacity: 0; }
-	to { top: 100px; opacity: 1; }
+	to { top: 130px; opacity: 1; }
 }
 
 .parallax-2 h1 {
+	/*border: 1px solid green;*/
   font-size: 110px;
-	width: 450px;
-	left: -105vh;
+	width: 875px;
+	left: -55vh;
 	/*height: 400px;*/
 	/*height: 32vh;*/
-	height: 95vh;
+	height: 15vh;
+	top: 340px;
 	opacity: 0;
 }
 
 .parallax-2 h2 {
-  color: rgba(0, 100, 255, 0.75);
-	text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+	/*background-color: rgba(0, 0, 0, 0.75);*/
+	/*border: 1px solid purple;*/
+	display: block;
+  color: rgba(255, 255, 255, 0.85);
+	text-shadow: 0 0 48px rgba(0, 0, 0, 0.9);
 	/*border: 1px solid purple;*/
 	font-size: 40px;
 	width: 540px;
-	left: 195vh;
+	left: -50px;
 	/*height: 400px;*/
 	/*height: 32vh;*/
-	height: 29vh;
+	top: 150px;
 	opacity: 0;
 }
 
 .parallax-2-up {
-	height: 32vh !important;
+	top: -660px !important;
 	opacity: 1 !important;
 }
 
 .parallax-2-left {
-	left: 55vh !important;
+	left: -765px !important;
 	opacity: 1 !important;
+}
+
+.parallax-3 h1 {
+  font-size: 160px;
+	width: 765px;
+	/*height: 560px;*/
+	height: 36vh;
+	/*top: -50vh;*/
+	/*text-shadow: 0 0 88px rgba(221, 0, 255, 0.8);*/
 }
 
 .parallax-10 h1 {
