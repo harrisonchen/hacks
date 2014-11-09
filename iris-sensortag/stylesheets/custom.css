@@ -1,0 +1,90 @@
+html {
+	font-family: 'Questrial', sans-serif;
+	overflow-x: hidden;
+}
+
+body {
+	margin: 0px;
+}
+
+.parallax {
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+}
+
+.parallax-1 {
+	height: 100vh;
+	background-image: url("../images/ti_sensortag2.png");
+}
+
+.parallax-2 {
+	height: 100vh;
+	background-image: url("../images/android.jpg");
+}
+
+.parallax-10 {
+	height: 100vh;
+	background-image: url("../images/photo.jpg");
+}
+
+.parallax h1 {
+	/*border: 1px solid green;*/
+	display: block;
+  color: rgba(255, 255, 255, 0.75);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  letter-spacing: -.02em;
+	text-shadow: 0 0 88px rgba(0, 0, 0, 0.8);
+	/*text-shadow: 0 0 88px rgba(221, 0, 255, 0.8);*/
+	/*text-shadow: 0 0 8px rgba(221, 0, 255, 0.6);*/
+}
+
+.parallax-1 h1 {
+  font-size: 160px;
+	width: 765px;
+	/*height: 560px;*/
+	height: 24vh;
+	/*top: -50vh;*/
+	/*text-shadow: 0 0 88px rgba(221, 0, 255, 0.8);*/
+	-webkit-animation: pull-up 1s ease-out;
+	animation: pull-up 1s ease-out;
+}
+
+@-webkit-keyframes pull-up {
+	from { height: 66vh; opacity: 0; }
+	to { height: 24vh; opacity: 1; }
+}
+
+@keyframes pull-up {
+from { height: 66vh; opacity: 0; }
+	to { height: 24vh; opacity: 1; }
+}
+
+.parallax-2 h1 {
+  font-size: 110px;
+	width: 450px;
+	left: -105vh;
+	/*height: 400px;*/
+	height: 32vh;
+}
+
+.parallax-10 h1 {
+  letter-spacing: 0.025em;
+  font-size: 160px;
+  width: 275px;
+	/*height: 660px;*/
+	height: 24vh;
+	top: -72vh;
+}
+
+.red {
+	color: red !important;
+}
+
