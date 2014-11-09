@@ -30,7 +30,7 @@ body {
 	background-image: url("../images/photo.jpg");
 }
 
-.parallax h1 {
+.parallax h1, h2{
 	/*border: 1px solid green;*/
 	display: block;
   color: rgba(255, 255, 255, 0.75);
@@ -44,13 +44,41 @@ body {
 	text-shadow: 0 0 88px rgba(0, 0, 0, 0.8);
 	/*text-shadow: 0 0 88px rgba(221, 0, 255, 0.8);*/
 	/*text-shadow: 0 0 8px rgba(221, 0, 255, 0.6);*/
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
 }
 
 .parallax-1 h1 {
   font-size: 160px;
 	width: 765px;
 	/*height: 560px;*/
-	height: 24vh;
+	height: 36vh;
+	/*top: -50vh;*/
+	/*text-shadow: 0 0 88px rgba(221, 0, 255, 0.8);*/
+	-webkit-animation: pull-down 1s ease-out;
+	animation: pull-down 1s ease-out;
+}
+
+@-webkit-keyframes pull-down {
+	from { height: 66vh; opacity: 0; }
+	to { height: 36vh; opacity: 1; }
+}
+
+@keyframes pull-down {
+from { height: 66vh; opacity: 0; }
+	to { height: 36vh; opacity: 1; }
+}
+
+.title-sub {
+	/*border: 1px solid purple;*/
+	font-size: 40px;
+	width: 320px;
+	/*height: 560px;*/
+	height: 6vh;
+	top: 100px;
 	/*top: -50vh;*/
 	/*text-shadow: 0 0 88px rgba(221, 0, 255, 0.8);*/
 	-webkit-animation: pull-up 1s ease-out;
@@ -58,13 +86,13 @@ body {
 }
 
 @-webkit-keyframes pull-up {
-	from { height: 66vh; opacity: 0; }
-	to { height: 24vh; opacity: 1; }
+	from { top: 250px; opacity: 0; }
+	to { top: 100px; opacity: 1; }
 }
 
 @keyframes pull-up {
-from { height: 66vh; opacity: 0; }
-	to { height: 24vh; opacity: 1; }
+from { top: 250px; opacity: 0; }
+	to { top: 100px; opacity: 1; }
 }
 
 .parallax-2 h1 {
@@ -72,7 +100,32 @@ from { height: 66vh; opacity: 0; }
 	width: 450px;
 	left: -105vh;
 	/*height: 400px;*/
-	height: 32vh;
+	/*height: 32vh;*/
+	height: 95vh;
+	opacity: 0;
+}
+
+.parallax-2 h2 {
+  color: rgba(0, 100, 255, 0.75);
+	text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+	/*border: 1px solid purple;*/
+	font-size: 40px;
+	width: 540px;
+	left: 195vh;
+	/*height: 400px;*/
+	/*height: 32vh;*/
+	height: 29vh;
+	opacity: 0;
+}
+
+.parallax-2-up {
+	height: 32vh !important;
+	opacity: 1 !important;
+}
+
+.parallax-2-left {
+	left: 55vh !important;
+	opacity: 1 !important;
 }
 
 .parallax-10 h1 {
@@ -82,9 +135,11 @@ from { height: 66vh; opacity: 0; }
 	/*height: 660px;*/
 	height: 24vh;
 	top: -72vh;
+	opacity: 0;
 }
 
-.red {
-	color: red !important;
+.parallax-10-show {
+	opacity: 1 !important;
 }
+
 
