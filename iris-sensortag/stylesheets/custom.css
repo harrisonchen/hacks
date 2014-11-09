@@ -30,6 +30,16 @@ body {
 	background-image: url("../images/google_maps.png");
 }
 
+.parallax-4 {
+	height: 100vh;
+	background-image: url("../images/analytics.png");
+}
+
+.parallax-9 {
+	height: 100vh;
+	background-image: url("../images/thermometer.jpg");
+}
+
 .parallax-10 {
 	height: 100vh;
 	background-image: url("../images/photo.jpg");
@@ -162,6 +172,62 @@ from { top: 250px; opacity: 0; }
 	/*height: 400px;*/
 	height: 6vh;
 	top: -400px;
+	/*opacity: 0;*/
+}
+
+.parallax-4 h1 {
+	/*border: 1px solid green;*/
+  font-size: 160px;
+	width: 690px;
+	/*height: 560px;*/
+	height: 24vh;
+	top: -190px;
+	/*top: -50vh;*/
+	/*text-shadow: 0 0 88px rgba(221, 0, 255, 0.8);*/
+}
+
+.parallax-4 h2 {
+	/*background-color: rgba(0, 0, 0, 0.75);*/
+	/*border: 1px solid purple;*/
+	text-align: center;
+	display: block;
+  color: rgba(255, 255, 255, 0.85);
+	text-shadow: 0 0 48px rgba(0, 0, 0, 0.9);
+	/*border: 1px solid purple;*/
+	font-size: 40px;
+	width: 1205px;
+/*	left: -50px;*/
+	/*height: 400px;*/
+	height: 18vh;
+	top: 150px;
+	/*opacity: 0;*/
+}
+
+.parallax-9 h1 {
+	/*border: 1px solid green;*/
+  font-size: 160px;
+	width: 1165px;
+	/*height: 560px;*/
+	height: 24vh;
+	top: -600px;
+	/*top: -50vh;*/
+	/*text-shadow: 0 0 88px rgba(221, 0, 255, 0.8);*/
+}
+
+.parallax-9 h2 {
+	/*background-color: rgba(0, 0, 0, 0.75);*/
+	/*border: 1px solid purple;*/
+	text-align: center;
+	display: block;
+  color: rgba(255, 255, 255, 0.85);
+	text-shadow: 0 0 48px rgba(0, 0, 0, 0.9);
+	/*border: 1px solid purple;*/
+	font-size: 40px;
+	width: 875px;
+/*	left: -50px;*/
+	/*height: 400px;*/
+	height: 18vh;
+	top: -300px;
 	/*opacity: 0;*/
 }
 
